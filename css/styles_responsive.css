@@ -52,7 +52,11 @@
     margin-right: 0;
     margin-bottom: 1em;
   }
-
+  
+  .article_title {
+    font-size: 2em;
+  }
+  
   .item_left {
     display: inline-block;
     width: 100%;
@@ -76,7 +80,7 @@
     background-color: #f0f4f5;
     width: 100%;
     padding: 1em;
-    line-height: 1.5em;
+    line-height: 1.75em;
   }
 }
 
