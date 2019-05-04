@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Work+Sans:200');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  color: #2d3c49;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+header {
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 1em;
+  border-bottom: 0.25em solid #7d97ad;
+  padding: 0.5em;
+  line-height: 0.25em;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* Main container styles */
+.main_container {
+  width: 900px;
+  margin: 0 auto 0;
+}
+.container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.flex_item {
+  width: 100%;
+  height:100%;
+}
+
+.margin_spacer {
+  margin-right: 0.25em;
+}
+
+/* Main header styles */
+.header_size {
+  font-size: 40px;
+  color: #2d3c49;
+  vertical-align: middle;
+}
+
+.udacity_logo {
+  width: 100%;
+  justify-content: flex-start;
+  vertical-align: middle;
+}
+
+.designer_name_title {
+  float: right;
+}
+
+.sub_title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #7d97ad;
+}
+
+.img_small_logo {
+  width: 5.5%;
+  height: 5.5%;
+  padding: 1em 1em 1em 0;
+  fill: #02b3e4;
+}
+
+/* Body content styles*/
+.img_default {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 0.5em;
+}
+
+.img_default_small {
+  width: 100%;
+  height:100%;
+  border-radius: 20em;
+}
+
+.content_text {
+  font-size: 1em;
+  background-color: #f0f4f5;
+  border-radius: 0.5em;
+  width: 100%;
+  padding: 2em;
+  margin-top: 1em;
+  line-height: 1.5em;
+}

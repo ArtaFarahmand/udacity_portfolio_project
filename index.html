@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Udacity Portfolio">
+    <meta name="author" content="Arta Farahmand">
+    <title>Arta Farahmand | Portfolio</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles_responsive.css" rel="stylesheet">
+    <script>
+      // Picture element HTML5.0 shiv
+      document.createElement("picture");
+    </script>
+  </head>
+
+  <body>
+    <div class="main_container">
+      <!-- website header content -->
+      <header id="website_header_container">
+        <div class="designer_name_title">
+          <h1 class="header_size">ARTA FARAHMAND</h1>
+          <p class="sub_header_size">FORNT-END NINJA</p>
+        </div>
+        <div class="udacity_logo">
+          <img src="img/udacity.svg" alt="logo of a computer and ipad" class="img_small_logo">
+        </div>
+      </header>
+      <!-- website main content -->
+      <main class="container">
+        <div class="flex_item udacity_header">
+          <picture>
+            <source media="(max-width: 550px)" srcset="img/img_banner_320w.jpg">
+            <source media="(max-width: 768px)" srcset="img/img_banner_768w.jpg">
+            <img src="img/img_banner_900w.jpg" alt="HTML code" class="img_default">
+          </picture>
+        </div>
+        <div class="flex-item sub_title">
+          <h2>Featured Work</h2>
+        </div>
+        <div class="flex-item item_left margin_spacer">
+          <img src="img/app.jpg" alt="iphone app" class="img_default_small">
+          <h2 class="heading_320w">APPIFY</h2>
+        </div>
+        <div class="flex-item item_center margin_spacer">
+          <img src="img/sunflower.jpg" alt="sun flower" class="img_default_small">
+          <h2 class="heading_320w">SUNFLOWER</h2>
+        </div>
+        <div class="flex-item item_right">
+          <img src="img/bokeh.jpg" alt="bokeh" class="img_default_small">
+          <h2 class="heading_320w">BOKEH</h2>
+        </div>
+        <article class="content_text">
+          <h2> ABOUT ME </h2>
+          <p>My Name is Arta Farahmand I am a passionate Front-End web developer with 5 years of experience in all aspects of web development including interface design, user experience design and quality control testing in a corporate environment. I maintain a high quality of design with particular attention to budget and ensuring that I consistently deliver projects on time.</p>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
